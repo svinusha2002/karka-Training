@@ -1,0 +1,26 @@
+n=0
+# while True:
+#     if(n==1000):
+#         break
+#     n=n+1
+#     print(n)
+# i=5
+# while i< 5:
+#     print(i)
+#     i=i+1
+n=0
+while i<500:
+    if(n==300):
+        break
+
+    n=n+1
+    print(n)
+
+
+# n=0
+# while n<500:
+#     if(n==300):
+#         continue
+
+#     n=n+1
+#     print(n)

@@ -1,0 +1,8 @@
+firstname=input(" firstname:")
+lastname=input("enter the last name:")
+grade=input("enter the grade:")
+student_ID=int(input("enter the student ID:"))
+login=input("enter the login:")
+GPA=input("enter the GPA:")
+print("your information")
+print(f"login:{lastname}\n ID:{student_ID}\n name:{firstname,lastname} \n GPA{GPA} \n grade:12")
