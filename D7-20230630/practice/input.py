@@ -11,6 +11,7 @@ print(type_of_name)
 type_0f_age=type(age)
 print(type_0f_age)
 
+
 #num=type(34)
 #print(num)
 

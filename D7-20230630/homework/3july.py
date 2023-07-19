@@ -25,7 +25,7 @@ else:
 
 item_1=int(input("enter the item1 :"))
 item_2=int(input("enter the item2 :"))
-item_3=int(input("enter the item3  :"))
+item_3=int(input("enter the item3 :"))
 item_4=int(input("enter the item4 :"))
 total=(item_1+item_2+item_3+item_4)
 print(total)

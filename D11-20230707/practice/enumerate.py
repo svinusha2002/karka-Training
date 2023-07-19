@@ -1,8 +1,8 @@
-# def my_list(a):
-#     for i,num in enumerate(a):
-#         if(num==85):
-#          return i
-# print(my_list([56,76,85,90]))
+def my_list(a):
+    for i,num in enumerate(a):
+        if(num==85):
+         return i
+print(my_list([56,76,85,90]))
 
 
 def my_friend(a):
