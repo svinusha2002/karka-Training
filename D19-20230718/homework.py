@@ -25,7 +25,14 @@ for i in items_list:
                 vegetables.append(i["name"])
                 print(vegetables)
 
-detail={fruits}
-    
+fruits={}
+vegetables={}
+for i in items_list:
+        if(i["category"]=="fruits"):
+               fruits.append["fruits"]
+               print(fruits)
+        if(i["category"]=="vegetables"):
+                vegetables.append(["vegetables"])
+                print(vegetables)
 
-
+        

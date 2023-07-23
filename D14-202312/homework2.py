@@ -46,13 +46,16 @@ def player_details():
         for i in cricket_detail:
            if i["hat-trick wickets"] >= 5:
                  print(i["player"])
+
         list=0
+        data=0
         for largest in cricket_detail:
             for i in largest["batting scores"]:
              if(i> list):
-               list=i
+               list+1
+               data+1
                return i
-
+      #   print(data)   
 player_details()
 
             
