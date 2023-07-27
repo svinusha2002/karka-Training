@@ -4,7 +4,7 @@
 # location=input("enter the location:")
 # college_name=input("enter the college name :")
 # # (1) print
-#print("Hello,my name is",name , ". I am ",age," years old and was born on ",DOB,". currently , I am located in",location,"and i completed my degree at",college_name)
+# print("Hello,my name is",name , ". I am ",age," years old and was born on ",DOB,". currently , I am located in",location,"and i completed my degree at",college_name)
 
 #home work 2
 age=int(input("enter the age:"))

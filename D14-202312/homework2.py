@@ -48,14 +48,11 @@ def player_details():
                  print(i["player"])
 
         list=0
-        data=0
         for largest in cricket_detail:
             for i in largest["batting scores"]:
-             if(i> list):
-               list+1
-               data+1
+             if(i["batting scores"]> list):
+               list=list+1
                return i
-      #   print(data)   
-player_details()
+print(player_details())
 
             

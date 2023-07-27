@@ -1,7 +1,8 @@
+
 def my_list(a):
     for i,num in enumerate(a):
-        if(num==85):
-         return i
+        if(i==85):
+         return num
 print(my_list([56,76,85,90]))
 
 
@@ -30,9 +31,13 @@ def largest_number(my_list):
 my_list=["vinusha","vinu","abisha"]
 print(largest_number(my_list))
 
+lists=[90,87,67,6]
+def my_list():
+    for i,num in enumerate(lists):
+        if(i==90):
+         return num
+print(my_list())
 
-
-         
          
 
 

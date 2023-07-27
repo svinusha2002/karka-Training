@@ -8,7 +8,7 @@ detail=[{"name":"shalini",
        },
        {"name": "shiva ",
         "place": "kottar",
-        "hoobies": ["dance","music","drawing"]
+        "hobbies": ["dance","music","drawing"]
        },
        {"name: abishek"
         "place: kottar"
@@ -18,27 +18,29 @@ detail=[{"name":"shalini",
     "place : marathandam"
     "hobbies: music, movie,cricket "
         }]
+print(detail[1]["name"]["place"]["hobbies"])
 print(detail[0]["name"])
 
 details=[{"name":"shiva",
        "place":"vadsery",
        "hobbies":["song","dance","drawing"]
        }]
-print(details[0]["hobbies"][1])
-print(details[0]["hobbies"][2])
-for i in details[0]["hobbies"]: #hobbies mattum print pannathuku hobbies apurama index poda vendam
-    print(i)
+# print(details[0]["hobbies"][1])
+# print(details[0]["hobbies"][2])
+# for i in details[0]["hobbies"]: #hobbies mattum print pannathuku hobbies apurama index poda vendam
+#     print(i)
 
+a=details([1]["hobbies"])
+print(a)
 
-
-# marks={"total" : 100,
-#         "english" : 80,
-#         "maths" : 100,
-#         "science" : 80,
-#         "social" : 90
-#         }
-# print(marks.items())
-# print(marks.values())
+marks={"total" : 100,
+        "english" : 80,
+        "maths" : 100,
+        "science" : 80,
+        "social" : 90
+        }
+print(marks.items())
+print(marks.values())
 
 
 # my_list=["vinusha","vinu","lenova","value"]

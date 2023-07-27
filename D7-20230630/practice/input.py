@@ -3,13 +3,15 @@
 # name="vinusha"
 # age=22
 name=input("enter the name")
-print(name)
-age=input("enter the age")
-print(age)
-type_of_name=type(name)
-print(type_of_name)
-type_0f_age=type(age)
-print(type_0f_age)
+c=type(name)
+print(c)
+# print(name)
+# age=input("enter the age")
+# print(age)
+# type_of_name=type(name)
+# print(type_of_name)
+# type_0f_age=type(age)
+# print(type_0f_age)
 
 
 #num=type(34)

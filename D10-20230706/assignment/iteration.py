@@ -1,17 +1,18 @@
 number_of_list=[250,900,456,567,345]
 sum=0
 for list in number_of_list:
-    sum=sum+list
-    print(sum)
+    if(list>sum):
+      sum=list
+print(sum)
 
-average=sum/len(number_of_list)
-print(average)
-cost_of_list=[100,200,300,400,500]
-empty=[]
-for cost in cost_of_list:
-    inr=("INR"+str(cost))
-    empty.append(inr)
-    print(empty)
+# average=sum/len(number_of_list)
+# print(average)
+# cost_of_list=[100,200,300,400,500]
+# empty=[]
+# for cost in cost_of_list:
+#     inr=("INR"+str(cost))
+#     empty.append(inr)
+#     print(empty)
 
 
 

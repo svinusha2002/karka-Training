@@ -65,11 +65,11 @@ file.write(c)
 file.close()
 
 
-# for data in consumer_data:
-#     #  for i,value in data.items():
-#     #     print(i,value)
-#     overview=(f'The month is {data["month"]} and unit consumed {data["unitconsumed"]} and billamount {data["billamount"]} ')
-#     print(overview)
+for data in consumer_data:
+     for i,value in data.items():
+        print(i,value)
+        overview=(f'The month is {data["month"]} and unit consumed {data["unitconsumed"]} and billamount {data["billamount"]} ')
+print(overview)
     # file=open("/home/vinusha/Pictures/dictionary.txt","a")
     # file.write(overview)
     # file.close()

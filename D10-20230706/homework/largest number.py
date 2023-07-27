@@ -1,5 +1,5 @@
 def largest_number(my_list):
-    large=my_list[0]
+    large=0
     for i in my_list:
         if(i>large):
           large=i

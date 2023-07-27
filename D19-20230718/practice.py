@@ -13,6 +13,12 @@ education_details=[{"study":"B.E",
                                              "semester":"B",
                                              }],     
                                             }]
-
-print(education_details[0])
-print(education_details["semester exam"]["semester name"])
+for i in education_details:
+    for a in i["semester marks"]:
+        print(a["semester name"])
+        b=a["semester name"]
+        for name in b[0]:
+            print(name)
+    
+# print(education_details[0])
+# print(education_details["semester exam"]["semester name"])

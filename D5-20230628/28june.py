@@ -1,13 +1,13 @@
-#print"hello"
-#print("hello,vinusha")
-#print(5)
-#print("5")
-#print(9+5)
-#print("56"+"78")
-#print("45"+67)
-#print("56+78")
-# print(s)
-#print(82+"78")
+print("hello")
+print("hello,vinusha")
+print(5)
+print("5")
+print(9+5)
+print("56"+"78")
+print("45"+67)
+print("56+78")
+print(5)
+print(82+"78")
 
 #assignment 2
 print("DMI emginerring college")

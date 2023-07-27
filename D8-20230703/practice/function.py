@@ -33,26 +33,26 @@ def calculation(p,n,r):
 checking_simple_interest=calculation(1000,100,2)
 print(checking_simple_interest)
 
-# #length
-# l=len("vinusha")
-# print(l)
+#length
+l=len("vinusha")
+print(l)
 
 # #lower
 # my_name="vinusha"
 # l=my_name.upper()
 # print(l)
+a="vinu"
+def name(): 
+    data=a
+    return data
+my_name=name()
+print(my_name)
 
-# def name(a): 
-#     data=a
-#     return data
-# my_name=name("vinu")
-# print(my_name)
 
-
-def vegetables(potato,tomato):
-    number_of_vegetable=potato,tomato
+def vegetables(potato,tomato,num3):
+    number_of_vegetable=potato,tomato,num3
     return number_of_vegetable
-check_vegetables=vegetables("potato","tomato")
+check_vegetables=vegetables("potato","tomato","brinjal")
 print(check_vegetables)
 
 

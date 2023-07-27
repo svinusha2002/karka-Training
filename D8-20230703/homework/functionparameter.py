@@ -1,10 +1,12 @@
 
 # #substract
-# def substract(num1,num2):
-#     number=(num1-num2)
-#     return number
-# number_is_substraction=substract(10,5)
-# print(number_is_substraction)
+num1=10
+num2=5
+def substract():
+    number=(num1-num2)
+    return number
+number_is_substraction=substract()
+print(number_is_substraction)
     
 #    #multiplication
 # def multiply(num1,num2):

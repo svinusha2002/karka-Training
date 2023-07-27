@@ -10,10 +10,16 @@
 # print(my_name)
 
 name_list=["shalini","gayathiri","vinusha","abishek","rajith","vijay"]
+a=name_list[0]
+check=a[1:5]
+print(check)
+
+        # x=i[1:3]
+        # print(x)
 # my_name=name_list[3:]
 # print(my_name)
 
-my_string="vinusha"
+# my_string="vinusha"
 # my_name=my_string[1:5]
 # print(my_name)
 
@@ -27,11 +33,11 @@ my_string="vinusha"
 
 #for loop
 
-for vegetables in name_list:
+# for vegetables in name_list:
     # print( vegetables.upper())
     # print(vegetables.capitalize())
     
-    print(f"my nameis {vegetables}")
+    # print(f"my nameis {vegetables}")
     # print(vegetables.count('n'))
 
     
